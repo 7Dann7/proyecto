@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+</head>
+
+{% extends "base.html" %} {% block content %}
+
+<body>
+    <div class="container">
+        <!-- From Uiverse.io by alexmaracinaru -->
+        <div class="card">
+            <div class="image"></div>
+            <div class="content">
+                <a href="#">
+                    <span class="title">
+                        ------promociones-------              
+                    </span>
+                </a>
+
+                <p class="desc">
+                    ingresar para mas
+                </p>
+
+                <a class="action" href="#">
+                    ingresar para mas
+                    <span aria-hidden="true">
+                        →
+                    </span>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="card-2">
+            <div class="image"></div>
+             <div class="content">
+               <a href="#">
+                 <span class="title">
+                   Combos SAubway Series
+                 </span>
+               </a>
+           
+               <p class="desc">
+                ingresar para mas
+               </p>
+           
+               <a class="action" href="#">
+                 Find out more
+                 <span aria-hidden="true">
+                   →
+                 </span>
+               </a>
+             </div>
+           </div>
+
+
+
+           <div class="card-3">
+            <div class="image"></div>
+             <div class="content">
+               <a href="#">
+                 <span class="title">
+                   ------Subway Series------
+                 </span>
+               </a>
+           
+               <p class="desc">
+                ingresar para mas
+               </p>
+           
+               <a class="action" href="#">
+                 Find out more
+                 <span aria-hidden="true">
+                   →
+                 </span>
+               </a>
+             </div>
+           </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
+
+{% endblock %}
